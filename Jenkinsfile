@@ -18,7 +18,9 @@ pipeline{
 				echo "Intigration Test"
 			}
 		}
-	} post {
+	} 
+	
+	post {
 		always{
 			echo 'I m awesome, I run always'
 		}
